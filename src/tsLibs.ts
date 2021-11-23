@@ -1,3 +1,4 @@
+/* eslint import/no-webpack-loader-syntax: off */
 export const libs = {
   "/es2015.d.ts": require("!raw-loader!typescript/lib/lib.es2015.d.ts"),
   "/dom.d.ts": require("!raw-loader!typescript/lib/lib.dom.d.ts"),
